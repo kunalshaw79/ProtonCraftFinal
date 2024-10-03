@@ -1039,7 +1039,7 @@ section,
   /* For large screens */
   @media (max-width: 1200px) {
     .problem-card {
-      width: 35vw; /* Increase width slightly */
+      width: 50vw; /* Increase width slightly */
       height: 35vh; /* Adjust height */
     }
   }
@@ -1047,7 +1047,7 @@ section,
   /* For medium screens (tablets) */
   @media (max-width: 992px) {
     .problem-card {
-      width: 45vw; /* Increase width for tablets */
+      width: 65vw; /* Increase width for tablets */
       height: 30vh; /* Decrease height */
       margin-bottom: 30px;
     }
@@ -1081,11 +1081,11 @@ section,
   }
   @media (max-width: 400px) {
     .problem-card h4 {
-      font-size: 0.8rem; /* Smaller font size for headers */
+      font-size: 1rem; /* Smaller font size for headers */
     }
   
     .problem-card ul li {
-      font-size: 0.6rem; /* Smaller font size for list items */
+      font-size: 0.75rem; /* Smaller font size for list items */
     }
   }
   
