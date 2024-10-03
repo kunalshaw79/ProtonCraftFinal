@@ -1,15 +1,4 @@
-/**
-* Template Name: Green
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -71,6 +60,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  overflow-x: hidden;
 }
 
 a {
@@ -1038,11 +1028,70 @@ section,
     padding: 20px; /* Inner padding */
   }
   
+  /* Hover Effect */
   .problem-card:hover {
     transform: translateY(-10px); /* Move card up on hover */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
   }
   
+  /* Media Queries for Responsive Design */
+  
+  /* For large screens */
+  @media (max-width: 1200px) {
+    .problem-card {
+      width: 50vw; /* Increase width slightly */
+      height: 35vh; /* Adjust height */
+    }
+  }
+  
+  /* For medium screens (tablets) */
+  @media (max-width: 992px) {
+    .problem-card {
+      width: 65vw; /* Increase width for tablets */
+      height: 30vh; /* Decrease height */
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* For small screens (large mobile phones) */
+  @media (max-width: 768px) {
+    .problem-card {
+      width: 80vw; /* Full-width for smaller screens */
+      height: 25vh; /* Decrease height */
+      padding: 15px; /* Adjust padding */
+      
+    }
+  }
+  
+  /* For extra small screens (small mobile phones) */
+  @media (max-width: 576px) {
+    .problem-card {
+      width: 90vw; /* Full-width with small padding */
+      height: 20vh; /* Smaller height */
+      padding: 10px; /* Smaller padding */
+    }
+  
+    .problem-card h4 {
+      font-size: 1.2rem; /* Smaller font size for headers */
+    }
+  
+    .problem-card ul li {
+      font-size: 0.9rem; /* Smaller font size for list items */
+    }
+  }
+  @media (max-width: 400px) {
+    .problem-card h4 {
+      font-size: 1rem; /* Smaller font size for headers */
+    }
+  
+    .problem-card ul li {
+      font-size: 0.75rem; /* Smaller font size for list items */
+    }
+  }
+  
+  
+
+
   /* Custom styles for Industrial Hazard Section */
 /* Custom styles for Industrial Hazard Section */
 #hazard .content {
@@ -1067,9 +1116,9 @@ section,
   margin-top: 20px; /* Add top margin for spacing */
 }
 /* Custom styles for Team Section */
-.member img {
+.member img{
   width: 100%; /* Ensure the image fills the container */
-  max-width: 180px; /* Set a consistent max width for all member images */
+  max-width: 180px; 
   max-height: 180px; /* Maintain aspect ratio */
   border-radius: 50%; /* Optional: Make images circular */
 }
@@ -1089,6 +1138,3 @@ section,
   height: 45vw;
   background-size: cover;
 }
-
-
-
