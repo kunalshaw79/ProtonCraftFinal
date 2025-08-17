@@ -1,11 +1,26 @@
-name: CI
+name: CI Workflow
+
 on:
-  push:
-    branches: [ "main" ]
+  push:        # runs on every push
+    branches: [ main ]
+  pull_request: # runs on PR to main
+    branches: [ main ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Run a one-line script
-        run: echo Hello, world!   
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
