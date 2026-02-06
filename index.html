@@ -1,332 +1,598 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-  <title>ProtonCraft - Creating Hydrogen From Industrial Waste</title>
-
-  <meta name="description" content="ProtonCraft converts toxic hydrogen sulfide (H₂S) refinery byproducts into green hydrogen and industrial-grade sulfur using a patented, energy-efficient electrolyzer and a proprietary catalyst. Circular, on-site, zero CO₂ technology." />
-  <meta name="keywords" content="ProtonCraft, Green hydrogen, H2S, Electrolyzer, Sulfur, CleanTech, Circular technology" />
-
-  <!-- Favicons -->
-  <link href="https://protoncraftinnovations.com/assets/img/lo.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Raleway:wght@600;800&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS (keep if you use these libraries) -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-  <!-- Main CSS (replace assets/css/main.css with the CSS below) -->
-  <link href="assets/css/main.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProtonCraft Innovations - Pioneering Hydrogen Solutions</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="index-page">
+<body>
 
   <!-- Header -->
   <header id="header" class="header">
-    <div class="container header-inner">
-      <a class="logo" href="index.html" aria-label="ProtonCraft home">
-        <img src="assets/img/lo.png" alt="ProtonCraft logo" />
-        <span class="brand">ProtonCraft</span>
-      </a>
-
-      <button id="mobile-toggle" class="mobile-toggle" aria-expanded="false" aria-controls="primary-nav">
-        <i class="bi bi-list" aria-hidden="true"></i>
-        <span class="visually-hidden">Toggle navigation</span>
-      </button>
-
-      <nav id="primary-nav" class="navmenu" role="navigation" aria-label="Main navigation">
-        <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">Vision</a></li>
-          <li><a href="#problem">Problem</a></li>
-          <li><a href="#hazard">Hazard</a></li>
-          <li><a href="#solution">Solution</a></li>
-          <li><a href="#services">Milestone</a></li>
-          <li><a href="#team">Team</a></li>
-        </ul>
-      </nav>
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <h1>ProtonCraft<span>Innovations</span></h1>
+        </div>
+        
+        <nav class="navbar">
+          <ul class="nav-menu">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#vision" class="nav-link">Vision</a></li>
+            <li><a href="#problem" class="nav-link">Problem</a></li>
+            <li><a href="#solution" class="nav-link">Solution</a></li>
+            <li><a href="#milestone" class="nav-link">Milestones</a></li>
+            <li><a href="#team" class="nav-link">Team</a></li>
+          </ul>
+          <div class="mobile-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
     </div>
   </header>
 
-  <main>
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content" data-aos="fade-up">
+        <h1 class="hero-title">Transforming Waste into <span class="gradient-text">Clean Energy</span></h1>
+        <p class="hero-subtitle">Converting hydrogen sulfide into valuable hydrogen fuel - Pioneering the future of sustainable energy</p>
+        <div class="hero-buttons">
+          <a href="#solution" class="btn btn-primary">Our Solution</a>
+          <a href="#vision" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
 
-    <!-- Hero -->
-    <section id="hero" class="hero accent-background">
-      <div id="hero-carousel" class="hero-inner">
-        <div class="hero-slide" style="background-image:url('assets/img/hero1.jpg')">
-          <div class="hero-content" data-aos="fade-up">
-            <h1>Transforming H₂S Waste into Green Hydrogen & Sulfur</h1>
-            <p class="lead">A patented electrolyzer and proprietary catalyst convert toxic refinery byproducts into valuable, zero-CO₂ hydrogen and industrial sulfur — on site.</p>
-            <div class="hero-cta">
-              <a href="#about" class="btn btn-primary">Our Vision</a>
-              <a href="#services" class="btn btn-outline">Milestones</a>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>About ProtonCraft</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-content" data-aos="fade-right">
+          <div class="content-block">
+            <div class="icon-box">
+              <i class="fas fa-atom"></i>
+            </div>
+            <h3>Our Name, Our Mission</h3>
+            <p>ProtonCraft combines 'Proton,' the core of a hydrogen atom, with 'Craft,' symbolizing creation. Just as hydrogen's single proton is the building block of the universe, ProtonCraft harnesses this fundamental power to fuel innovation and create new possibilities.</p>
+          </div>
+        </div>
+        
+        <div class="about-content" data-aos="fade-left">
+          <div class="content-block">
+            <div class="icon-box">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h3>Hydrogen: Key to Decarbonization</h3>
+            <p>Reduction in costs of renewable energy, cost of electrolysers coming down by as much as 60% in the last 3 years, and an overall system efficiency ecosystem getting more ripe has led us to believe in the role of hydrogen to decarbonize our economies.</p>
+            <div class="stat-highlight">
+              <span class="stat-number">~90%</span>
+              <span class="stat-label">of required carbon reductions from green hydrogen</span>
             </div>
           </div>
         </div>
-
-        <div class="hero-slide" style="background-image:url('assets/img/hero2.png')">
-          <div class="hero-content" data-aos="fade-up">
-            <h1>Hydrogen — The Key to Decarbonization</h1>
-            <p class="lead">Lower renewable energy costs and more efficient electrolysers make green hydrogen the central solution for deep decarbonization.</p>
+        
+        <div class="about-content full-width" data-aos="fade-up">
+          <div class="content-block featured">
+            <div class="icon-box">
+              <i class="fas fa-flask"></i>
+            </div>
+            <h3>Advancing Hydrogen Storage Technology</h3>
+            <p>Hydrogen, with its very high calorific value compared to fossil fuels, is the best alternative in the near future to save this planet. Advancements in technology to store H₂ at high pressure have made commercialization possible by significantly increasing volumetric density - better than Li-ion batteries at more than 100 bar pressure. H₂ is the prominent green energy storage medium.</p>
           </div>
         </div>
-
-        <div class="hero-slide" style="background-image:url('assets/img/hero3.webp')">
-          <div class="hero-content" data-aos="fade-up">
-            <h1>Advanced Storage & High Volumetric Density</h1>
-            <p class="lead">New storage technologies allow hydrogen to compete with conventional energy storage at scale.</p>
-          </div>
-        </div>
-
-        <button class="carousel-control prev" data-direction="prev" aria-label="Previous slide"><i class="bi bi-chevron-left"></i></button>
-        <button class="carousel-control next" data-direction="next" aria-label="Next slide"><i class="bi bi-chevron-right"></i></button>
-
-        <div class="carousel-indicators" aria-hidden="true"></div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- About / Vision -->
-    <section id="about" class="about section">
-      <div class="container section-title" data-aos="fade-up">
+  <!-- Vision Section -->
+  <section id="vision" class="vision">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
         <h2>Our Vision</h2>
+        <div class="section-divider"></div>
+        <p class="section-subtitle">Our Mission to Decarbonize Industries</p>
       </div>
-
-      <div class="container content-grid">
-        <div class="visual" data-aos="fade-right">
-          <img src="assets/img/Rectangle.png" alt="ProtonCraft lab" class="img-fluid" />
+      
+      <div class="vision-grid">
+        <div class="vision-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card-icon">
+            <i class="fas fa-fire-alt"></i>
+          </div>
+          <h3>Replace Fossil Fuels</h3>
+          <p>Our goal is to replace fossil fuels with hydrogen as a primary energy source, as it's the only viable solution for true decarbonization.</p>
         </div>
-        <div class="text" data-aos="fade-left">
-          <h3>Decarbonizing industries with circular technology</h3>
-          <ul class="checks">
-            <li>Replace fossil fuels with hydrogen as the primary energy source.</li>
-            <li>Convert harmful industrial byproducts (H₂S) into hydrogen and valuable sulfur.</li>
-            <li>Enable refineries to reach net-zero goals through on-site, zero-CO₂ solutions.</li>
-          </ul>
-          <p>We aim to be a global exporter of cost-effective green hydrogen by 2030 — turning waste into wealth.</p>
+        
+        <div class="vision-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card-icon">
+            <i class="fas fa-recycle"></i>
+          </div>
+          <h3>Convert Industrial Waste</h3>
+          <p>We are driven to convert industrial byproducts like H₂S into valuable outputs—Hydrogen Gas and Sulfur.</p>
+        </div>
+        
+        <div class="vision-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card-icon">
+            <i class="fas fa-industry"></i>
+          </div>
+          <h3>Reduce Emissions</h3>
+          <p>We recognize the significant emissions from industries and are committed to reducing them through hydrogen-based solutions.</p>
         </div>
       </div>
-    </section>
+      
+      <div class="vision-statement" data-aos="fade-up">
+        <div class="statement-content">
+          <h3>Global Vision for 2030</h3>
+          <p>We aim to become a global exporter of cost-effective and efficient hydrogen by 2030. Through our efforts, we envision a net-zero future with hydrogen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Problem -->
-    <section id="problem" class="section light-background">
-      <div class="container section-title" data-aos="fade-up">
+  <!-- Problem Section -->
+  <section id="problem" class="problem">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
         <h2>Problem in Hydrogen Production</h2>
+        <div class="section-divider"></div>
       </div>
-
-      <div class="container cards-row">
-        <article class="card problem-card" data-aos="fade-up" data-aos-delay="100">
-          <h4>Grey Hydrogen</h4>
-          <ul>
-            <li>~95% of global production — high CO₂ emissions</li>
-            <li>Steam methane reforming releases large CO₂ per kg H₂</li>
-            <li>Pricing and carbon costs make it unsustainable</li>
-          </ul>
-        </article>
-
-        <article class="card problem-card" data-aos="fade-up" data-aos-delay="200">
-          <h4>Green Hydrogen — Cost & Water</h4>
-          <ul>
-            <li>Expensive due to high energy & purified water needs</li>
-            <li>Typical electrolysis uses freshwater; resource pressure exists</li>
-            <li>Need for more efficient, waste-driven feedstocks</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <!-- Industrial Hazard -->
-    <section id="hazard" class="section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Industrial HAZARD — Abundant Hydrogen Sulfide (H₂S)</h2>
-      </div>
-
-      <div class="container split" data-aos="fade-up">
-        <div class="split-text">
-          <ul>
-            <li>Natural gas sources can contain up to ~28% H₂S — highly toxic.</li>
-            <li>Major H₂S sources: oil refineries, tanneries, coke ovens, gas wells.</li>
-            <li>Typical disposal is oxidation — low value and further emissions.</li>
-          </ul>
+      
+      <div class="problem-grid">
+        <div class="problem-card grey" data-aos="flip-left" data-aos-delay="100">
+          <div class="card-header">
+            <i class="fas fa-smog"></i>
+            <h3>Grey Hydrogen</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><i class="fas fa-check"></i> 95% of all hydrogen is grey with high emissions</li>
+              <li><i class="fas fa-check"></i> Cost: $1-2.1 per kg</li>
+              <li><i class="fas fa-check"></i> Produced from steam reforming of natural gas</li>
+              <li><i class="fas fa-check"></i> For every 1 kg of H₂, 14 kg of CO₂ released</li>
+            </ul>
+          </div>
         </div>
-        <div class="split-visual">
-          <img src="assets/img/industry.png" alt="Industry hazard" class="img-fluid" />
+        
+        <div class="problem-card green" data-aos="flip-left" data-aos-delay="200">
+          <div class="card-header">
+            <i class="fas fa-bolt"></i>
+            <h3>Green Hydrogen</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><i class="fas fa-check"></i> Highly expensive due to high energy consumption</li>
+              <li><i class="fas fa-check"></i> Cost: $3.6-5.8 per kg</li>
+              <li><i class="fas fa-check"></i> Using purified H₂O with ~65% efficiency</li>
+              <li><i class="fas fa-check"></i> Wastage of limited fresh water resources</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="problem-card hazard" data-aos="flip-left" data-aos-delay="300">
+          <div class="card-header">
+            <i class="fas fa-exclamation-triangle"></i>
+            <h3>Industrial Hazard</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li><i class="fas fa-check"></i> Natural gas mines contain 28% deadly H₂S gas</li>
+              <li><i class="fas fa-check"></i> Major sources: Oil refineries, Tannery, Coke-oven</li>
+              <li><i class="fas fa-check"></i> Currently, H₂S waste is oxidized</li>
+              <li><i class="fas fa-check"></i> Produces unvaluable by-products: Sulfur and Steam</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Solution -->
-    <section id="solution" class="about section">
-      <div class="container section-title" data-aos="fade-up">
+  <!-- Solution Section -->
+  <section id="solution" class="solution">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
         <h2>Our Solution</h2>
-        <p>Transforming hydrogen sulfide into green hydrogen and industrial sulfur — on site, circular, and emission-free.</p>
+        <div class="section-divider"></div>
       </div>
-
-      <div class="container image-center" data-aos="fade-up">
-        <img src="assets/img/wastetow.png" alt="Waste to wealth" class="img-fluid feature-image" />
-      </div>
-    </section>
-
-    <!-- Impact -->
-    <section class="section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Impact</h2>
-        <p>Empowering a net-zero future with hydrogen.</p>
-      </div>
-
-      <div class="container image-center" data-aos="fade-up">
-        <img src="assets/img/impact.png" alt="Impact" class="img-fluid feature-image" />
-      </div>
-    </section>
-
-    <!-- Milestone / Services -->
-    <section id="services" class="why-us section light-background">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Milestones</h2>
-      </div>
-
-      <div class="container milestone-grid">
-        <div class="milestone" data-aos="fade-up" data-aos-delay="100"><span>01</span><p>Lowest reported overpotential for H₂ production; patent applied for catalyst.</p></div>
-        <div class="milestone" data-aos="fade-up" data-aos-delay="200"><span>02</span><p>Single-beaker electrocatalyst tests completed (TRL-3 → TRL-4 tests).</p></div>
-        <div class="milestone" data-aos="fade-up" data-aos-delay="300"><span>03</span><p>Industrial testing support from IOCL Panipat with real H₂S feedstock.</p></div>
-        <div class="milestone" data-aos="fade-up" data-aos-delay="400"><span>04</span><p>Incubation at LOG9 and partnership with Ion-Exchange for tech scale-up.</p></div>
-        <div class="milestone" data-aos="fade-up" data-aos-delay="500"><span>05</span><p>Scalable compact electrolyzer stack developed (changeable anode), TRL-5.</p></div>
-        <div class="milestone" data-aos="fade-up" data-aos-delay="600"><span>06</span><p>Letter of Intent to pilot at a major Indian refinery (IOCL Panipat).</p></div>
-      </div>
-
-      <div class="container section-title" data-aos="fade-up" style="margin-top:2.5rem;">
-        <h2>Our Partner</h2>
-      </div>
-
-      <div class="container image-center" data-aos="fade-up">
-        <img src="assets/img/partner.png" alt="Partner logos" class="img-fluid partner-image" />
-      </div>
-    </section>
-
-    <!-- Team -->
-    <section id="team" class="team section">
-      <div class="container section-title" data-aos="fade-up"><h2>Our Team</h2></div>
-
-      <div class="container team-grid">
-        <div class="member" data-aos="fade-up" data-aos-delay="100">
-          <img src="assets/img/pic1.jpg" alt="Kunal Shaw" />
-          <h4>Kunal Shaw</h4>
-          <span>CEO</span>
-          <p class="bio">2025 Graduate, B.Tech. Engineering Physics, IIT Roorkee</p>
-          <p class="contact">kunal@protoncraftinnovations.com • +91-9432810879</p>
-          <div class="social"><a href="https://www.linkedin.com/in/shawkunal031/" aria-label="Kunal LinkedIn"><i class="bi bi-linkedin"></i></a></div>
+      
+      <div class="solution-content">
+        <div class="solution-main" data-aos="fade-right">
+          <div class="solution-text">
+            <h3>Transforming Waste to Wealth</h3>
+            <p class="lead">Our technology transforms hydrogen sulfide into hydrogen, supporting refineries and producing valuable sulfur for various industries.</p>
+            <div class="highlight-box">
+              <i class="fas fa-lightbulb"></i>
+              <h4>We are converting waste to wealth!</h4>
+            </div>
+          </div>
         </div>
-
-        <div class="member" data-aos="fade-up" data-aos-delay="200">
-          <img src="assets/img/pic3.png" alt="Ritik Payak" />
-          <h4>Ritik Payak</h4>
-          <span>COO</span>
-          <p class="bio">2025 Graduate, B.Tech. EEE, IIT Roorkee</p>
-          <p class="contact">ritik@protoncraftinnovations.com • +91-9503482400</p>
-          <div class="social"><a href="https://www.linkedin.com/in/ritik-payak-5a6716172/" aria-label="Ritik LinkedIn"><i class="bi bi-linkedin"></i></a></div>
-        </div>
-
-        <div class="member" data-aos="fade-up" data-aos-delay="300">
-          <img src="assets/img/pic2.png" alt="Rahul Kumar" />
-          <h4>Rahul Kumar</h4>
-          <span>CTO</span>
-          <p class="bio">Ph.D. (Chemistry) — Nanostructured mixed metal oxides for energy storage</p>
-          <p class="contact">rahul@protoncraftinnovations.com • +91-7457800516</p>
-          <div class="social"><a href="https://www.linkedin.com/in/rahul-kumar-6a329b189/" aria-label="Rahul LinkedIn"><i class="bi bi-linkedin"></i></a></div>
+        
+        <div class="solution-impact" data-aos="fade-left">
+          <div class="impact-card">
+            <h3>Impact</h3>
+            <p class="impact-title">Empowering a Net-Zero Future with Hydrogen</p>
+            <div class="impact-stats">
+              <div class="stat-item">
+                <i class="fas fa-leaf"></i>
+                <span>Zero Emissions</span>
+              </div>
+              <div class="stat-item">
+                <i class="fas fa-dollar-sign"></i>
+                <span>Cost Effective</span>
+              </div>
+              <div class="stat-item">
+                <i class="fas fa-recycle"></i>
+                <span>Waste Utilization</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <img src="assets/img/impimg.png" alt="" class="impimg" aria-hidden="true" />
+  <!-- Milestones Section -->
+  <section id="milestone" class="milestone">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Our Milestones</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker">01</div>
+          <div class="timeline-content">
+            <h3>Patent Application</h3>
+            <p>Achieved the lowest reported overpotential for hydrogen production and applied for patent for that particular catalyst.</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-marker">02</div>
+          <div class="timeline-content">
+            <h3>Lab Testing Success</h3>
+            <p>Single beaker test of electrocatalyst successfully performed at lab [TRL-3] and tested by dissolving H₂S in alkali solution in two beaker cell (H-CELL) [TRL-4].</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker">03</div>
+          <div class="timeline-content">
+            <h3>IOCL Partnership</h3>
+            <p>Got support of IOCL Panipat to understand regulatory measures. Tested industrial grade H₂S.</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-marker">04</div>
+          <div class="timeline-content">
+            <h3>Strategic Incubation</h3>
+            <p>Got incubation at LOG9 (India's first Li-ion manufacturing company) for further development and partnered with Ion-Exchange for tech support.</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item" data-aos="fade-right">
+          <div class="timeline-marker">05</div>
+          <div class="timeline-content">
+            <h3>Electrolyzer Development</h3>
+            <p>Developed scalable compact electrolyzer stack with changeable anode [TRL-5].</p>
+          </div>
+        </div>
+        
+        <div class="timeline-item" data-aos="fade-left">
+          <div class="timeline-marker">06</div>
+          <div class="timeline-content">
+            <h3>Pilot Plant Approval</h3>
+            <p>Got Letter of Intent to setup pilot at one of the largest refineries in India, Indian Oil Corporation Limited (IOCL) Panipat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </main>
+  <!-- Partners Section -->
+  <section id="partners" class="partners">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Our Partners</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="partners-grid" data-aos="zoom-in">
+        <div class="partner-logo">
+          <p>IOCL</p>
+        </div>
+        <div class="partner-logo">
+          <p>LOG9</p>
+        </div>
+        <div class="partner-logo">
+          <p>Ion Exchange</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top" aria-label="Scroll to top"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Team Section -->
+  <section id="team" class="team">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Our Team</h2>
+        <div class="section-divider"></div>
+      </div>
+      
+      <div class="team-grid">
+        <div class="team-member" data-aos="fade-up" data-aos-delay="100">
+          <div class="member-image">
+            <div class="image-placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Kunal Shaw</h3>
+            <span class="role">CEO</span>
+            <p class="education">2025 Graduate, B.Tech. in Engineering Physics, IIT Roorkee</p>
+            <div class="contact-info">
+              <a href="mailto:kunal@protoncraftinnovations.com"><i class="fas fa-envelope"></i></a>
+              <a href="tel:+919432810879"><i class="fas fa-phone"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="team-member" data-aos="fade-up" data-aos-delay="200">
+          <div class="member-image">
+            <div class="image-placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Ritik Payak</h3>
+            <span class="role">COO</span>
+            <p class="education">2025 Graduate, B.Tech. in Electrical & Electronics Engineering, IIT Roorkee</p>
+            <div class="contact-info">
+              <a href="mailto:ritik@protoncraftinnovations.com"><i class="fas fa-envelope"></i></a>
+              <a href="tel:+919503482400"><i class="fas fa-phone"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="team-member" data-aos="fade-up" data-aos-delay="300">
+          <div class="member-image">
+            <div class="image-placeholder">
+              <i class="fas fa-user"></i>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Rahul Kumar</h3>
+            <span class="role">CTO</span>
+            <p class="education">Ph.D. (Chemistry) - Nanostructured mixed metal oxides for energy storage and production</p>
+            <div class="contact-info">
+              <a href="mailto:rahul@protoncraftinnovations.com"><i class="fas fa-envelope"></i></a>
+              <a href="tel:+917457800516"><i class="fas fa-phone"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>ProtonCraft<span>Innovations</span></h3>
+          <p>Pioneering the future of clean energy</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#vision">Vision</a></li>
+            <li><a href="#solution">Solution</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-envelope"></i> info@protoncraftinnovations.com</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ProtonCraft Innovations. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
-  <!-- Small custom JS for nav, hero carousel, scroll-top -->
+  <!-- Scroll to Top Button -->
+  <button id="scrollTop" class="scroll-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- AOS Animation Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  
+  <!-- Custom JavaScript (Inline) -->
   <script>
-    // Mobile nav toggle
-    (function() {
-      const toggle = document.getElementById('mobile-toggle');
-      const nav = document.getElementById('primary-nav');
-      toggle.addEventListener('click', () => {
-        const expanded = toggle.getAttribute('aria-expanded') === 'true';
-        toggle.setAttribute('aria-expanded', String(!expanded));
-        nav.classList.toggle('open');
-        document.body.classList.toggle('mobile-nav-active');
-      });
-
-      // Close nav when a link is clicked (mobile)
-      nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-        nav.classList.remove('open');
-        toggle.setAttribute('aria-expanded', 'false');
-        document.body.classList.remove('mobile-nav-active');
-      }));
-    })();
-
-    // Minimal hero carousel (auto slide + manual)
-    (function() {
-      const slides = Array.from(document.querySelectorAll('.hero-slide'));
-      if (!slides.length) return;
-      let idx = 0;
-      const show = i => {
-        slides.forEach((s, n) => s.classList.toggle('active', n === i));
-        // indicators (if present)
-        const dots = document.querySelectorAll('.carousel-indicators button');
-        dots.forEach((d, n) => d.classList.toggle('active', n === i));
-      };
-      show(idx);
-      let interval = setInterval(() => { idx = (idx + 1) % slides.length; show(idx); }, 6000);
-
-      document.querySelectorAll('.carousel-control').forEach(btn => {
-        btn.addEventListener('click', (e) => {
-          clearInterval(interval);
-          idx = (btn.dataset.direction === 'next') ? (idx + 1) % slides.length : (idx - 1 + slides.length) % slides.length;
-          show(idx);
-          interval = setInterval(() => { idx = (idx + 1) % slides.length; show(idx); }, 6000);
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      // Mobile Menu Toggle
+      const mobileToggle = document.querySelector('.mobile-toggle');
+      const navMenu = document.querySelector('.nav-menu');
+      const navLinks = document.querySelectorAll('.nav-link');
+      
+      if (mobileToggle) {
+        mobileToggle.addEventListener('click', function() {
+          navMenu.classList.toggle('active');
+          const icon = this.querySelector('i');
+          if (navMenu.classList.contains('active')) {
+            icon.classList.remove('fa-bars');
+            icon.classList.add('fa-times');
+          } else {
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+          }
+        });
+      }
+      
+      navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+          if (window.innerWidth <= 768) {
+            navMenu.classList.remove('active');
+            const icon = mobileToggle.querySelector('i');
+            icon.classList.remove('fa-times');
+            icon.classList.add('fa-bars');
+          }
         });
       });
-
-      // create simple indicators
-      const indicators = document.querySelector('.carousel-indicators');
-      slides.forEach((_, i) => {
-        const b = document.createElement('button');
-        b.addEventListener('click', () => { clearInterval(interval); idx = i; show(idx); });
-        indicators.appendChild(b);
+      
+      // Header Scroll Effect
+      const header = document.querySelector('.header');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 100) {
+          header.classList.add('scrolled');
+        } else {
+          header.classList.remove('scrolled');
+        }
       });
-    })();
-
-    // Scroll top
-    (function() {
-      const topBtn = document.getElementById('scroll-top');
-      const showWhen = 300;
-      window.addEventListener('scroll', () => {
-        if (window.scrollY > showWhen) topBtn.classList.add('active');
-        else topBtn.classList.remove('active');
+      
+      // Active Navigation
+      const sections = document.querySelectorAll('section[id]');
+      function highlightNavigation() {
+        const scrollY = window.pageYOffset;
+        sections.forEach(section => {
+          const sectionHeight = section.offsetHeight;
+          const sectionTop = section.offsetTop - 100;
+          const sectionId = section.getAttribute('id');
+          const navLink = document.querySelector(`.nav-link[href="#${sectionId}"]`);
+          if (navLink) {
+            if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+              navLink.classList.add('active');
+            } else {
+              navLink.classList.remove('active');
+            }
+          }
+        });
+      }
+      window.addEventListener('scroll', highlightNavigation);
+      
+      // Smooth Scroll
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            const headerHeight = document.querySelector('.header').offsetHeight;
+            const targetPosition = target.offsetTop - headerHeight;
+            window.scrollTo({
+              top: targetPosition,
+              behavior: 'smooth'
+            });
+          }
+        });
       });
-      topBtn.addEventListener('click', (e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
-    })();
-
-    // Initialize AOS if available
-    if (window.AOS) AOS.init({ once: true, duration: 700 });
+      
+      // Scroll to Top Button
+      const scrollTopBtn = document.getElementById('scrollTop');
+      if (scrollTopBtn) {
+        window.addEventListener('scroll', function() {
+          if (window.pageYOffset > 300) {
+            scrollTopBtn.classList.add('active');
+          } else {
+            scrollTopBtn.classList.remove('active');
+          }
+        });
+        scrollTopBtn.addEventListener('click', function() {
+          window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+          });
+        });
+      }
+      
+      // Hide Scroll Indicator
+      const scrollIndicator = document.querySelector('.scroll-indicator');
+      if (scrollIndicator) {
+        window.addEventListener('scroll', function() {
+          if (window.pageYOffset > 100) {
+            scrollIndicator.style.opacity = '0';
+            scrollIndicator.style.visibility = 'hidden';
+          } else {
+            scrollIndicator.style.opacity = '1';
+            scrollIndicator.style.visibility = 'visible';
+          }
+        });
+      }
+      
+      // AOS Animation Initialization
+      if (typeof AOS !== 'undefined') {
+        AOS.init({
+          duration: 800,
+          easing: 'ease-in-out',
+          once: true,
+          offset: 100,
+          delay: 100
+        });
+      }
+      
+      // Card Tilt Effect
+      const cards = document.querySelectorAll('.vision-card, .problem-card, .team-member');
+      cards.forEach(card => {
+        card.addEventListener('mousemove', function(e) {
+          const rect = this.getBoundingClientRect();
+          const x = e.clientX - rect.left;
+          const y = e.clientY - rect.top;
+          const centerX = rect.width / 2;
+          const centerY = rect.height / 2;
+          const rotateX = (y - centerY) / 20;
+          const rotateY = (centerX - x) / 20;
+          this.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
+        });
+        card.addEventListener('mouseleave', function() {
+          this.style.transform = 'perspective(1000px) rotateX(0) rotateY(0) translateY(0)';
+        });
+      });
+      
+      // Gradient Animation
+      const gradientTexts = document.querySelectorAll('.gradient-text');
+      gradientTexts.forEach(text => {
+        text.style.backgroundSize = '200% auto';
+        let position = 0;
+        setInterval(() => {
+          position += 1;
+          if (position > 100) position = 0;
+          text.style.backgroundPosition = `${position}% center`;
+        }, 30);
+      });
+      
+    });
   </script>
 
-  <!-- Main JS File (if you have extra scripts) -->
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
